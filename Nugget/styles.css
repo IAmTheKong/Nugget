@@ -1,0 +1,24 @@
+main{
+    font-size: 10vw;
+}
+
+@media screen and (min-width: 992px) {
+    main{
+        font-size: 9vw;
+    }
+    
+}
+
+@media screen and (min-width: 1200px) {
+    main{
+        font-size: 6.5vw;
+    }
+    
+}
+
+@media screen and (min-width: 1400px) {
+    main{
+        font-size: 5vw;
+    }
+    
+}
