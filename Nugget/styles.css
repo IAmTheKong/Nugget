@@ -2,6 +2,15 @@ main,footer{
     font-size: 10vw;
 }
 
+footer ul {
+    list-style-type: none;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: white;
+}
 
 
 @media screen and (min-width: 992px) {
