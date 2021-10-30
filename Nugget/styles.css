@@ -12,10 +12,23 @@ footer li:hover{
     color: white;
 }
 
+.footerlinks{
+    font-size: 0.55em;
+}
+
+.footerheading{
+    font-size: 0.4;
+}
+
+ul{
+    text-decoration: none;
+    list-style-type: none;
+}
+
 
 @media screen and (min-width: 992px) {
     main, footer{
-        font-size: 9vw;
+        font-size: 7vw;
     }
     
 }
