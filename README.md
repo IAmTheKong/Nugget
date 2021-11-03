@@ -1,4 +1,4 @@
 # Nugget
 Nugget website and database
 
-View at [nuggetnavbar.netlify.app](https://nuggetnavbar.netlify.app)
+View at [nugget.network](https://nugget.network)
