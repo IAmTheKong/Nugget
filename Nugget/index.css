@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(236, 236, 236);
+    font-size: 16px;
+    font-family: sans-serif
+}
+
+nav {
+    border-bottom: 1px solid black;
+}
+
+.main-img {
+    width: 100%;
+    border-radius: 50px;
+    margin-top: 5vh;
+    height: 50vh;
+    background-image: url('/images/main-picture-ready.jpg');
+    background-size: cover;
+}
+
+.buy-box {
+    background-color: white;
+    border-radius: 30px;
+    width: 30vw;
+    height: 30vh;
+    margin: 0 auto;
+    padding: 20px 20px;
+}
+
+.buy-box,
+.buy-box-text {
+    margin: 10vh 0;
+}
+
+.buy-box-text {
+    padding: 20% 0;
+}
+
+.input-group-text {
+    background-color: white;
+
+}
+
+.small-img {
+    background-image: url("/images/main-picture-ready.jpg");
+    background-size: cover;
+    height: 200px;
+    width: 200px;
+
+    border-radius: 10px;
+    
+    margin: 10px auto;
+
+}
+
+
+
+.container-2 {
+    padding: 0 8vw;
+}
+
+.text-2 {
+    margin: 10vh 0;
+    font-weight: 800;
+    font-size: 3em;
+
+}
+
+.nav-img {
+    height: 7vh;
+    width: auto;
+    border: 2px solid black;
+    padding: 0 1vw;
+    margin: 2vh 0;
+    box-shadow: 12px 5px 2px 1px rgba(162, 0, 255, 0.2);
+    margin-left: 1vw;
+}

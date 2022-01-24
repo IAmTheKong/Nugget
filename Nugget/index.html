@@ -1,173 +1,99 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
-    <link rel="stylesheet" href="styles.css">
-    <title>Nugget</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link rel="stylesheet" href="../bootstrap-5.0.1-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="index.css">
+  <title>Nugget | Metaverse Framework</title>
 </head>
-
-<body class="bg-black text-white" style="overflow:auto; font-family: Lato, sans-serif;">
-    <div>
-        <!-- abwegen ob es nicht besser ist die container erst an der gebrauchten stelle zu benützen oder global im gesamten dokument-->
-        <nav class="navbar navbar-expand-sm bg-black navbar-dark sticky-top">
-            <div class="container-fluid container-xl">
-                <a class="navbar-brand" href="index.html">NUGGET</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-                <div class="collapse navbar-collapse" id="collapsibleNavbar">
-                    <ul class="navbar-nav">
-                        <li class="nav-item dropdown px-3">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Use Nugget</a>
-                            <ul class="dropdown-menu dropdown-menu-dark">
-                                <li><a class="dropdown-item" href="wallets.html">Nugget Wallet</a></li>
-                                <li><a class="dropdown-item" href="hownuggetworks.html">How does Nugget Work?</a></li>
-                                <li><a class="dropdown-item" href="getnugget.html">Get Nugget</a></li>
-                                <li><a class="dropdown-item" href="dapp.html">Dapps</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown px-3">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Network</a>
-                            <ul class="dropdown-menu dropdown-menu-dark">
-                                <li><a class="dropdown-item" href="blockexplorer.html">Block Explorer</a></li>
-                                <li><a class="dropdown-item" href="ngtinfo.html">Nugget Info</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item dropdown px-3">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Community</a>
-                            <ul class="dropdown-menu dropdown-menu-dark">
-                                <li><a class="dropdown-item" href="#">Twitter</a></li>
-                                <li><a class="dropdown-item" href="#">GitHub</a></li>
-                                <li><a class="dropdown-item" href="#">Reddit</a></li>
-                            </ul>
-                        </li>
-                        <li class="nav-item px-3">
-                            <a class="nav-link" href="developers.html">Developer</a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+<body>
+  <nav>
+    <div class="container">
+      <div class="">
+      <img src="/images/NGT-Icon.png" alt="" class="nav-img">
     </div>
-
-    <!-- Nugget Banner with background-->
-    <main>
-        <div style="background-color: rgb(224, 3, 206);" class="py-5 ">
-            <div class="container-fluid container-xl">
-                <div class="row ">
-                    <div class="col">
-                        <h1 style="font-size: 2em; font-weight:700; ">Nugget.</h1>
-                        <h2 style="font-size: 0.8em; font-weight:500;">The Cryptocurrency for Gamers.</h2>
-                    </div>
-                </div>
-            </div>
+    </div>
+  </nav>
+  <main>
+    <div class="container">
+      
+      <div class="main-img ">
+        
+      </div>
+      <div class="container-2">
+      <div class="row">
+        <div class="col-8 " >
+          <h2 class="text-2" >A Framework for building Metaverses.<br>Built on the Polygon Blockchain,<br>based on Etherium.</h2>
         </div>
-
-        <!-- Get Started Banner-->
-        <div class="container-fluid container-xl">
-            <div class="my-3 px-2">
-                <div class="row">
-                    <div class="col">
-                        <h3 style="font-size: 1.2em; font-weight: 600;">GET</h3>
-                        <h3 style="font-size: 1.2em; font-weight: 600; font-family: Lato, sans-serif; ">STARTED:</h3>
-                    </div>
-                </div>
-
-                <!--Get a Wallet-->
-                <div class="container-fluid container-xl mt-3">
-                    <div class="row">
-                        <div class="col-md-6 col-12 my-3 py-3">
-                            <div class="row text-center mt-4" style="font-size: 0.5em;">
-                                <i class="bi bi-arrows-fullscreen"></i>
-                            </div>
-                            <h3 style="font-size: 0.5em;">Get a Wallet</h3>
-                            <p style="font-size: 0.38em;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi nam, recusandae repellat minus, maiores ad eos sint nostrum expedita</p>
-                            <a href="/wallets.html">
-                                <button class="btn text-black" type="button" style="width: 100%; height:100%; max-height:100px; font-size: 0.5em; background-color:chartreuse;">
-                      <i class="bi bi-chevron-right"></i>
-                    </button>
-                            </a>
-                        </div>
-                        <div class="col-md-6 col-12 my-3 py-3">
-                            <div class="row text-center mt-4" style="font-size: 0.5em;">
-                                <i class="bi bi-arrows-fullscreen"></i>
-                            </div>
-                            <h3 style="font-size: 0.5em;">Get Nugget</h3>
-                            <p style="font-size: 0.38em;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi nam, recusandae repellat minus, maiores ad eos sint nostrum expedita</p>
-                            <a href="/getnugget.html">
-                    <button class="btn text-black" type="button" style="width: 100%; height:100%; max-height:100px; font-size: 0.5em; background-color:rgb(0, 217, 255);"">
-                      <i class="bi bi-chevron-right"></i>
-                    </button>
-                  </a>
-                        </div>
-                        <div class=" col-12 my-3 py-3">
-                            <div class="row text-center mt-4" style="font-size: 0.5em;">
-                                <i class="bi bi-arrows-fullscreen"></i>
-                            </div>
-                            <h3 style="font-size: 0.5em;">Use Dapps</h3>
-                            <p style="font-size: 0.38em;">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Commodi nam, recusandae repellat minus, maiores ad eos sint nostrum expedita</p>
-                            <a href="/dapp.html">
-                                <button class="btn text-black" type="button" style="width: 100%; height:100%; max-height:100px; font-size: 0.5em; background-color:rgb(249, 253, 9);">
-                      <i class="bi bi-chevron-right"></i>
-                    </button>
-                            </a>
-                        </div>
-                    </div>
-
-                </div>
-
-    </main>
-    <footer class="mt-5 bg-dark">
-
-        <div class="bg-dark container-fluid container-xl">
-            <div class="px-4 text-white " style="font-size: 0.58em;">
-                <div class="row">
-                    <div class=" col-6">
-                        <h5 class="text-white footerheading">Use Nugget</h5>
-                        <ul class="list-unstyled" >
-                            <li><a class=" text-decoration-none text-secondary footerlinks" href="wallets.html">Nugget Wallet</a></li>
-                            <li><a class=" text-decoration-none text-secondary footerlinks" href="hownuggetworks.html">How does Nugget Work?</a></li>
-                            <li><a class="text-decoration-none text-secondary footerlinks" href="getnugget.html">Get Nugget</a></li>
-                            <li><a class="text-decoration-none text-secondary footerlinks" href="dapp.html" style="color: gray;">Dapps</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-6">
-                        <h5 class="text-white footerheading">Network</h5>
-                        <ul class="list-unstyled" >
-                            <li><a class=" text-decoration-none text-secondary footerlinks" href="/blockexplorer.html">Nugget Wallet</a></li>
-                            <li><a class=" text-decoration-none text-secondary footerlinks" href="/ngtinfo.html">How does Nugget Work?</a></li>
-                        </ul>
-                    </div>
-                    <div class="col-6">
-                        <h5 class="text-white footerheading">Community</h5>
-                        <ul class="list-unstyled" >
-                            <li><a class=" text-decoration-none text-secondary footerlinks" href="https://twitter.com/" target="_blank">Twitter</a></li>
-                            <li><a class=" text-decoration-none text-secondary footerlinks" href="https://reddit.com/" target="_blank">Reddit</a></li>
-                            <li><a class="text-decoration-none text-secondary footerlinks" href="https://github.com/" target="_blank">GitHub</a></li>
-                        </ul>
-                    </div>
-
-                </div>
-            </div>
-
-            <div class="container-xl container-fluid py-5 text-center" style="font-size: 0.7em;">
-                <div>
-                    <a href="https://twitter.com/" target="_blank" style="color: white;"><i class="bi bi-twitter px-4"></i></a>
-                    <a href="https://reddit.com/" target="_blank" style="color: white;"><i class="bi bi-reddit px-4"></i></a>
-                    <a href="https://github.com/" target="_blank" style="color: white;"><i class="bi bi-github px-4"></i></a>
-                </div>
-
-            </div>
+      </div>
+      <div class="row ">
+        <div class="col-6 ">
+          <h3 class="buy-box-text">Buy the Nugget Meta Framework Token and be a part of the Future.</h3>
         </div>
-    </footer>
+        <div class="col-6">
+          <div class="buy-box">
+            <form>
+              <div class="row">
+                <div class="col-6">
+                  <label for="MVT"></label>
+                  <div class="input-group mb-3">
+                    <input type="number" class="form-control" id="currency-1" aria-label="Amount Tokens">
+                    <span class="input-group-text">USD</span>
+                  </div>
+                  <label for="MVT"></label>
+                  <div class="input-group mb-3">
+                    <input type="number" class="form-control" id="currency-2" aria-label="Amount Tokens">
+                    <span class="input-group-text">NMF</span>
+                  </div>
+                  <button class="btn" onclick="currencyCalculator()">Calculate</button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="overflow-auto">
+        <div class="row gx-1">
+        
+          <div class="col-3">
+            <a href="" class="">
+              <div class="small-img">
+              </div>
+            </a>
+          </div>
+          <div class="col-3">
+            <a href="" class="">
+              <div class="small-img">
+              </div>
+            </a>
+          </div>
+          <div class="col-3">
+            <a href="" class="">
+              <div class="small-img">
+              </div>
+            </a>
+          </div>
+          <div class="col-3">
+            <a href="" class="">
+              <div class="small-img">
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </div>
+    </div>
+  </main>
+  <footer>
+    <div class="container">
 
+    </div>
+  </footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+<script src="index.js" defer></script>
 </body>
-
 </html>
