@@ -155,7 +155,16 @@ nav {
 
 
 @media only screen and (max-width: 600px) {
+    .img-text-left{
+        position: absolute;
+        top:10%;
+        left:20px;
+        color: white;
+    }
 
+    .small-img{
+        margin:5vh auto;
+    }
 }
 
 @media only screen and (min-width: 600px) {
