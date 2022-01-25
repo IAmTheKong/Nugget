@@ -13,7 +13,7 @@ nav {
     border-radius: 50px;
     margin-top: 5vh;
     height: 50vh;
-    background-image: url('/images/main-picture-ready.jpg');
+    background-image: url('/images/Nugget_4.03_main.jpg');
     background-size: cover;
     position: relative;
     background-color: rgb(14, 94, 243);
@@ -21,7 +21,7 @@ nav {
 
 .img-text-left{
     position: absolute;
-    top:25%;
+    top:30%;
     left:20px;
     color: white;
 }
@@ -62,17 +62,25 @@ nav {
 }
 
 .small-img {
-    background-image: url("/images/main-picture-ready.jpg");
+    background-image: url("/images/Nugget_4.03_main.jpg");
     background-size: cover;
     height: 200px;
     width: 200px;
 
     border-radius: 10px;
     
-    margin: 10px auto;
+    margin: 10vh auto;
+    color: white;
 
 }
 
+.small-img:hover{
+    transform: scale(1.05);
+}
+
+.text-pic-1{
+    padding: 10px 10px;
+}
 
 
 .container-2 {
@@ -103,7 +111,7 @@ nav {
 
 
 .b-w-1{
-    width: 50vw;
+    width: 100%;
     border-radius:20px;
     margin: 10vh auto;
     background-color:rgb(19, 19, 19);
@@ -111,39 +119,77 @@ nav {
     padding:5vh 2vw;
 }
 
+.dummy-1{
+    background-image: url("/images/Nugget_4.03_dummy_1.jpg");
+    background-size: cover;
+    height: 60vh;
+    width: 100%;
+
+    border-radius: 10px;
+    
+    margin: 10px auto;
+}
+
+
+/*Hyperlink*/
+
+.small-img a:link {
+    text-decoration: none;
+  }
+  
+.small-img a:visited {
+    text-decoration: none;
+  }
+  
+.small-img a:hover {
+    text-decoration: underline;
+  }
+  
+.small-img a:active {
+    text-decoration: underline;
+  }
 
 
 
+/*Media Queries*/
 
 
+@media only screen and (max-width: 600px) {
 
+}
 
+@media only screen and (min-width: 600px) {
 
+}
+
+@media only screen and (min-width: 768px) {
+
+} 
 
 @media screen and (min-width: 992px) {
     body{
-        font-size: 7px;
+        font-size: 12px;
     }
     
 }
 
 @media screen and (min-width: 1100px) {
     body{
-        font-size: 10px;
+        font-size: 14px;
     }
     
 }
 
 @media screen and (min-width: 1200px) {
     body{
-        font-size: 14px;
+        font-size: 16px;
     }
     
 }
 
 @media screen and (min-width: 1400px) {
     body{
-        font-size: 16px;
+        font-size: 18px;
     }
     
 }
